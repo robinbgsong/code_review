@@ -30,5 +30,5 @@ void templatePriorityQueue<int>::pop(){
 
 template <>
 void templatePriorityQueue<int>::push(const int& val){
-        storage.push(val);
+        if(val < 1000) storage.push(val);
 }
