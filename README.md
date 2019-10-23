@@ -1,2 +1,2 @@
 # code_review
-code review repository
+this is code review repository
